@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/8.0.40"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="carltron.WindowNavigation">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" layoutX="-1.0">
+         <image>
+            <Image url="@images/tron-legacy-084.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+      </Pane>
+      <Text layoutX="43.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Carltron is a game based on a grid system. Each player controls a light cycle, which leaves a trail as a solid wall. Players control the cars in all four directions so as to avoid colliding with the other player’s path, their own path or the walls of the grid. The aim of the game is to force the opponent to collide before you do." textAlignment="CENTER" wrappingWidth="694.345703125">
+         <fill>
+            <RadialGradient centerX="0.7696629213483146" centerY="0.4807692307692307" focusAngle="-35.54" radius="0.5">
+               <stops>
+                  <Stop color="#04bcff" />
+                  <Stop color="#05ddff" offset="0.007662835249042145" />
+                  <Stop color="#108f9a" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A player has limited chances to jump an opponent's path or their own path so as to avoid collision. Players can also instantaneously increase the speed of their lightcyle by using turbo. Each player is given three turbos at the beginning of a game. Players can pick up items that randomly appear on the grid so as to gain an advantage over their opponent. Players will be able to gain invincibility for 5 seconds by picking up the certain bonus. " textAlignment="CENTER" wrappingWidth="694.3456957351482">
+         <fill>
+            <RadialGradient centerX="0.7696629213483146" centerY="0.4807692307692307" cycleMethod="REFLECT" focusAngle="-35.54" radius="0.5">
+               <stops>
+                  <Stop color="#04bcff" />
+                  <Stop color="#05ddff" offset="0.007662835249042145" />
+                  <Stop color="#13aab2" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="82.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Controls:" textAlignment="CENTER" wrappingWidth="88.34569573514818">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5337078651685394" centerY="0.4807692307692307" focusAngle="-35.54" radius="0.5">
+               <stops>
+                  <Stop color="#04bcff" />
+                  <Stop color="#ff7c05" offset="0.007662835249042145" />
+                  <Stop color="#e5990e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text layoutX="222.0" layoutY="463.0" strokeType="OUTSIDE"
+            strokeWidth="0.0"
+            text="DIRECTION: W/A/S/D and arrows"
+            textAlignment="CENTER" wrappingWidth="283.3456957351482">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5337078651685394" centerY="0.4807692307692307" focusAngle="-35.54" radius="0.5">
+               <stops>
+                  <Stop color="#04bcff" />
+                  <Stop color="#ff7c05" offset="0.007662835249042145" />
+                  <Stop color="#e5990e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text layoutX="222.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Collect bonuses to jump and dash more times)" textAlignment="CENTER" wrappingWidth="390.3456957351482">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5337078651685394" centerY="0.4807692307692307" focusAngle="-35.54" radius="0.5">
+               <stops>
+                  <Stop color="#04bcff" />
+                  <Stop color="#ff7c05" offset="0.007662835249042145" />
+                  <Stop color="#e5990e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text layoutX="222.0" layoutY="499.0" strokeType="OUTSIDE"
+            strokeWidth="0.0" text="JUMP: E/shift(right)"
+            wrappingWidth="168.34569573514818">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5337078651685394" centerY="0.4807692307692307" focusAngle="-35.54" radius="0.5">
+               <stops>
+                  <Stop color="#04bcff" />
+                  <Stop color="#ff7c05" offset="0.007662835249042145" />
+                  <Stop color="#e5990e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text layoutX="222.0" layoutY="534.0" strokeType="OUTSIDE"
+            strokeWidth="0.0" text="TURBO:Q/return" wrappingWidth="151.34569573514818">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5337078651685394" centerY="0.4807692307692307" focusAngle="-35.54" radius="0.5">
+               <stops>
+                  <Stop color="#04bcff" />
+                  <Stop color="#ff7c05" offset="0.007662835249042145" />
+                  <Stop color="#e5990e" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Button layoutX="204.0" layoutY="410.0" mnemonicParsing="false"
+              onAction="#onBackButton" opacity="0.5" prefHeight="26.0"
+              prefWidth="372.0" text="Play Now" textFill="#3baaad" AnchorPane.bottomAnchor="164.0" AnchorPane.leftAnchor="204.0" AnchorPane.rightAnchor="224.0" AnchorPane.topAnchor="410.0" />
+      <ImageView fitHeight="42.0" fitWidth="200.0" layoutX="290.0" layoutY="34.0">
+         <image>
+            <Image url="@images/rules.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
